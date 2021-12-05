@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks Clone</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+
+    <nav class="Navbar">
+        <div class="NavbarContainer">
+            <div class="NavbarLogo">
+                <a href="index.html">
+                    <img src="images/logo.svg" class="LogoImg" alt="Logo Starbucks" width="100" height="100">
+                </a>
+            </div>
+
+            <ul class="NavbarLeft">
+                <li class="Item">
+                    <a href="#" class="LinkLeft">Menu</a>
+                </li>
+                <li class="Item">
+                    <a href="#" class="LinkLeft">Rewards</a>
+                </li>
+                <li class="Item">
+                    <a href="#" class="LinkLeft">Gift Cards</a>
+                </li>
+            </ul>
+
+            <ul class="NavbarRight">
+                <li class="Item">
+                    <a href="#" class="LinkLocatie">
+                        <img src="images/marker.svg" class="LogoLocatie" alt="Logo locatie" width="60" height="60">
+                        <span>Find a store</span>
+                    </a>
+                </li>
+                <li class="Item"><button class="Btn BtnDarkOutline">Sign in</button></li>
+                <li class="Item Item2"><button class="Btn BtnDark">Join now</button></li>
+            </ul>
+
+            <!-- Hamburger Menu -->
+            <button type="button" class="Hamburger" id="menuBtn">
+                <span class="HamburgerTop"></span>
+                <span class="HamburgerMiddle"></span>
+                <span class="HamburgerBottom"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="MobileMenu Hidden" id="menu">
+        <ul class="MobileList">
+            <li class="MobileItem">
+                <a href="#">Menu</a>
+            </li>
+            <li class="MobileItem">
+                <a href="#">Rewards</a>
+            </li>
+            <li class="MobileItem">
+                <a href="#">Gift Cards</a>
+            </li>
+        </ul>
+
+        <div class="MobileMenuBtn">
+            <button class="Btn BtnDarkOutline">Sign in</button>
+            <button class="Btn BtnDark">Join now</button>
+            <div>
+                <a href="#">
+                    <img src="images/marker.svg" class="MarkerMobileLogo" alt="Logo Menu" width="60" height="60">
+                    <span class="MobileSpan">Find a store</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Box A -->
+    <section class="Box BoxA BgPrimary TextCenter PaddingMd">
+        <div class="BoxInner">
+            <h2 class="TextXl">Jingle all the way to free favorites</h2>
+            <p class="TextMd">Join Starbucks® Rewards for delicious deals & exclusive offers.
+                <a href="#">Learn more</a>
+            </p>
+        </div>
+    </section>
+
+
+    <!-- Box B -->
+    <section class="Box BoxB BgSecondary GridCol2">
+        <img src="images/box-b.png" alt="Imagine box B" />
+        <div class="BoxText">
+            <h2 class="TextXl">New to the nice list</h2>
+            <p class="TextMd">
+                For a nondairy twist on a holiday cookie classic, try the new Iced
+                Sugar Cookie Almondmilk Latte.
+            </p>
+            <a href="#" class="Btn BtnLightOutline">Order Now</a>
+        </div>
+    </section>
+
+    <!-- Box C -->
+    <section class="Box BoxC BgSecondary GridCol2 GridReversed">
+        <img src="images/box-c.png" alt="Imagine box C"/>
+        <div class="BoxText">
+            <h2 class="TextXl">Merry moment</h2>
+            <p class="TextMd">
+                Treat yourself to a festive Sugar Plum Cheese Danish with a nicely
+                spiced sugar-plum spread.
+            </p>
+            <a href="#" class="Btn BtnLightOutline">Order Now</a>
+        </div>
+    </section>
+
+    <!-- Box D -->
+    <section class="Box BoxD BgPrimary GridCol2">
+        <img src="images/box-d.png" alt="Imagine box D"/>
+        <div class="BoxText">
+            <h2 class="TextXl">Starbucks Thanksgiving Blend</h2>
+            <p class="TextMd">
+                This elegant dark roast returns, showcasing flavors from some of the
+                world’s major coffee-growing regions.
+            </p>
+            <a href="#" class="Btn BtnLightOutline">Order Now</a>
+        </div>
+    </section>
+
+    <!-- Box E -->
+    <section class="Box BoxE BgSecondary GridCol2 GridReversed">
+        <img src="images/box-e.jpg" alt="Imagine box E"/>
+        <div class="BoxText">
+            <h2 class="TextMd">Fighting hunger this holiday</h2>
+            <p class="TextSm">
+                Hunger is affecting millions of people across America this holiday
+                season. Join us in our commitment to hunger relief and help feed
+                neighbors in need.
+            </p>
+            <a href="#" class="Btn BtnLightOutline">Order Now</a>
+        </div>
+    </section>
+
+    <!-- Box F -->
+    <section class="Box BoxF GridCol2">
+        <div>
+            <img src="images/box-f1.jpg" alt="Imagine box F1" />
+            <div class="BgExtra paddingLg">
+                <div class="BoxText">
+                    <h2 class="TextMd">Let the holiday cheer come to you</h2>
+                    <p class="TextSm">
+                        Make the moment merry. Order Starbucks® holiday favorites on Uber
+                        Eats.*
+                    </p>
+                    <a href="#" class="Btn BtnDarkOutline">Order Now</a>
+                </div>
+            </div>
+        </div>
+        <div>
+            <img src="images/box-f2.jpg" alt="Imagine box F2"/>
+            <div class="BgPrimary paddingLg">
+                <div class="BoxText">
+                    <h2 class="TextMd">Loved Passing on Netflix?</h2>
+                    <p class="TextSm">
+                        Our new social series about film adaptations kicks off with the
+                        actors and directors who brought the book to life.
+                    </p>
+                    <a href="#" class="Btn BtnLightOutline">Order Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="Divider2"></div>
+
+    <footer class="Footer">
+
+        <div class="SubFooter">
+            <!-- 1 -->
+            <div>
+                <div class="FooterContent">
+                    <button class="Button" id="btn">
+                        <h3 class="FooterTitle">About Us</h3>
+                        <img src="./images/icon-arrow.svg" class="Arrow" id="rotate" alt="Logo arrow footer" width="60"
+                            height="60">
+                    </button>
+                </div>
+                <span class="Text" id="btnSpan">
+                    <a href="#">Our Company</a>
+                    <a href="#">Our Coffee</a>
+                    <a href="#">Stories and News</a>
+                    <a href="#">Starbucks Archive</a>
+                    <a href="#">Investor Relations</a>
+                    <a href="#">Customer Services</a>
+                </span>
+            </div>
+
+            <!-- 2 -->
+            <div>
+                <div class="FooterContent">
+                    <button class="Button" id="btn2">
+                        <h3 class="FooterTitle">Careers</h3>
+                        <img src="./images/icon-arrow.svg" class="Arrow" id="rotate2" alt="Logo arrow footer" width="60"
+                            height="60">
+                    </button>
+                </div>
+                <span class="Text" id="btnSpan2">
+                    <a href="#" class="test2">Culture and Valves</a>
+                    <a href="#" class="test2">Inclusion, Diversity, and Equity</a>
+                    <a href="#" class="test2">College Achievement Plan</a>
+                    <a href="#" class="test2">Alumni Community</a>
+                    <a href="#" class="test2">U.S. Careers</a>
+                    <a href="#" class="test2">International Careers</a>
+                </span>
+            </div>
+
+            <!-- 3 -->
+            <div>
+                <div class="FooterContent">
+                    <button class="Button" id="btn3">
+                        <h3 class="FooterTitle">Social Impact</h3>
+                        <img src="./images/icon-arrow.svg" class="Arrow" id="rotate3" alt="Logo arrow footer" width="60"
+                            height="60">
+                    </button>
+                </div>
+                <span class="Text" id="btnSpan3">
+                    <a href="#">People</a>
+                    <a href="#">Planet</a>
+                    <a href="#">Environmental and Social Impact Reporting</a>
+                </span>
+            </div>
+
+            <!-- 4 -->
+            <div>
+                <div class="FooterContent">
+                    <button class="Button" id="btn4">
+                        <h3 class="FooterTitle">For Business Partners</h3>
+                        <img src="./images/icon-arrow.svg" class="Arrow" id="rotate4" alt="Logo arrow footer" width="60"
+                            height="60">
+                    </button>
+                </div>
+                <span class="Text" id="btnSpan4">
+                    <a href="#">Landlord Support Center</a>
+                    <a href="#">Suppliers</a>
+                    <a href="#">Corporate Gift Card Sales</a>
+                    <a href="#">Office and Foodservice Coffee</a>
+                </span>
+            </div>
+
+            <!-- 5 -->
+            <div>
+                <div class="FooterContent">
+                    <button class="Button" id="btn5">
+                        <h3 class="FooterTitle">Order and Pickup</h3>
+                        <img src="./images/icon-arrow.svg" class="Arrow" id="rotate5" alt="Logo arrow footer" width="60"
+                            height="60">
+                    </button>
+                </div>
+                <span class="Text" id="btnSpan5">
+                    <a href="#">Order on the App</a>
+                    <a href="#">Order on the Web</a>
+                    <a href="#">Delivery</a>
+                    <a href="#">Order and Pickup Options</a>
+                    <a href="#">Explore and Find Coffee for Home</a>
+                </span>
+            </div>
+        </div>
+
+
+        <div class="Divider"></div>
+
+        <div class="FooterContainer">
+            <div class="Social">
+                <a href="https://spotify.com">
+                    <img src="./images/social-spotify.svg" class="FooterLogoImg" alt="Logo spotify" width="35"
+                        height="35" />
+                </a>
+                <a href="https://facebook.com">
+                    <img src="./images/social-facebook.svg" class="FooterLogoImg" alt="Logo facebook" width="35"
+                        height="35" />
+                </a>
+                <a href="https://pinterest.com">
+                    <img src="./images/social-pinterest.svg" class="FooterLogoImg" alt="Logo pinterest" width="35"
+                        height="35" />
+                </a>
+                <a href="https://instagram.com">
+                    <img src="./images/social-instagram.svg" class="FooterLogoImg" alt="Logo instagram" width="35"
+                        height="35" />
+                </a>
+                <a href="https://youtube.com">
+                    <img src="./images/social-youtube.svg" class="FooterLogoImg" alt="Logo youtube" width="35"
+                        height="35" />
+                </a>
+                <a href="https://twitter.com">
+                    <img src="./images/social-twitter.svg" class="FooterLogoImg" alt="Logo twitter" width="35"
+                        height="35" />
+                </a>
+            </div>
+
+            <div class="FooterContent2">
+                <p>Privacy Policy</p>
+                <p>Terms of Use</p>
+                <p>CA Supply Chain Act</p>
+                <p>Cookie Preferences</p>
+            </div>
+
+            <p>© 2021 Starbucks Coffee Company. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
