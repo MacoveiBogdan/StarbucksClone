@@ -420,11 +420,16 @@ img {
 }
 
 .Divider {
-  max-width: 1440px;
+  width: 95%;
   margin: 0 auto;
   height: 1px;
   background: #ccc;
   margin: 40px auto;
+}
+@media (min-width: 1440px) {
+  .Divider {
+    width: 100%;
+  }
 }
 
 .Divider2 {
